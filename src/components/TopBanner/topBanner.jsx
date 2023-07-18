@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../../assets/css/custom.css';
 import { Container,Row,Col,Button} from 'react-bootstrap';
+
 
 class topBanner extends Component {
   render() {
