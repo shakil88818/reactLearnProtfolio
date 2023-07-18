@@ -7,6 +7,7 @@ import TopNavigation from './components/TopNavigation/TopNavigation.jsx'
 import Analysis from './components/Analysis/Analysis.jsx';
 import Summary from './components/Summary/Summary.jsx';
 import RecentProject from './components/RecentProject/RecentProject.jsx';
+import Cources from './components/Cources/Courcs.jsx';
 
 
 
@@ -19,6 +20,8 @@ const App = () => {
       <Analysis />
       <Summary />
       <RecentProject />
+      <Cources/>
+      
       
 
     </div>

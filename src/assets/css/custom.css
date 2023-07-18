@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Home section  Top Banner Start */
 .topFixedBanner{
     background-image: url("../image/bg.jpg");
@@ -41,6 +45,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .serviceTitle{
     margin-top: 1rem;
@@ -201,7 +206,6 @@
     border-radius: 2px;
     border: none !important;
     margin: 5px;
-    height: 22rem;
     padding: 60px 30px;
     box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.2);
 }
@@ -222,4 +226,32 @@
     font-size: 14px;
     font-weight: 400;
 
+}
+/* Recent Project end */
+
+
+/* Our Cources start*/
+
+.courcesImg{
+    width: 100%;
+    height: 12rem;
+}
+.courcesMargin{
+    margin: 0.6rem;
+}
+.courcesDetails{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.courcesTitle{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.courcesDesc{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(31, 31, 31);
 }
