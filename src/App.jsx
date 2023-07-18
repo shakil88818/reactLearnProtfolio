@@ -4,6 +4,8 @@ import TopBanner from './components/TopBanner/topBanner.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Services from './components/Services/Services.jsx'
 import TopNavigation from './components/TopNavigation/TopNavigation.jsx'
+import Analysis from './components/Analysis/Analysis.jsx';
+import Summary from './components/Summary/Summary.jsx';
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <TopNavigation />
       <TopBanner />
       <Services />
+      <Analysis />
+      <Summary />
       
 
     </div>

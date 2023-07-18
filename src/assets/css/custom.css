@@ -134,3 +134,60 @@
 .toggleColor{
     background-color: white !important;
 }
+
+
+
+
+/* Tecnology Used */
+
+.desc{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:black;
+}
+
+
+/* Summary start */
+.summaryMargin{
+    margin-top: 5rem;
+}
+.summaryBanner{
+    background-image: url("../image/bg.jpg");
+    min-height: 380px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summaryBannerOverlay{
+    position: absolute;
+    min-height: 380px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.summaryCount{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+.summaryTotal{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+.bottomHr{
+    border: 1.5px solid white;
+    margin-right: 9rem ;
+    margin-left: 9rem ;
+}
+
+.summarySection{
+    margin-top: 20%;
+}
+.summaryColHeading{
+    text-align: left;
+}
