@@ -191,3 +191,35 @@
 .summaryColHeading{
     text-align: left;
 }
+/* Summary End */
+
+
+
+/* Recent Project start */
+
+.recentProCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 5px;
+    height: 22rem;
+    padding: 60px 30px;
+    box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.2);
+}
+.recentProCard:hover{
+    box-shadow: 0 0 30px 0 rgba(0, 115, 230, 0.2);
+}
+.recentProTitle{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.recentProDesc{
+    color: rgb(95, 95, 95);
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}

@@ -6,6 +6,8 @@ import Services from './components/Services/Services.jsx'
 import TopNavigation from './components/TopNavigation/TopNavigation.jsx'
 import Analysis from './components/Analysis/Analysis.jsx';
 import Summary from './components/Summary/Summary.jsx';
+import RecentProject from './components/RecentProject/RecentProject.jsx';
+
 
 
 const App = () => {
@@ -16,6 +18,7 @@ const App = () => {
       <Services />
       <Analysis />
       <Summary />
+      <RecentProject />
       
 
     </div>
