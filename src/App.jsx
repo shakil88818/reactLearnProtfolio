@@ -8,6 +8,7 @@ import Analysis from './components/Analysis/Analysis.jsx';
 import Summary from './components/Summary/Summary.jsx';
 import RecentProject from './components/RecentProject/RecentProject.jsx';
 import Cources from './components/Cources/Courcs.jsx';
+import Video from './components/Video/Video.jsx';
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
       <Summary />
       <RecentProject />
       <Cources/>
+      <Video />
       
       
 

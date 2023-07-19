@@ -255,3 +255,24 @@
     font-family: 'Raleway', sans-serif;
     color: rgb(31, 31, 31);
 }
+
+/* Our Cources end*/
+
+/* Video Start */
+.videoCard{
+    box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    margin: 50px auto;
+}
+.videoTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(0, 115, 230);
+
+}
+.videoPlayBtn{
+    color: rgb(0, 115, 230);
+    font-size: 50px;
+    cursor: pointer;
+}

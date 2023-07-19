@@ -36,9 +36,9 @@ class Cources extends Component {
                     </Col>
               
                     <Col lg = {6} md = {6} sm = {12}>
-                        <h3>Web Development</h3>
-                        <p>adipisicing elit. Mollitia iusto harum odio dolore unde quam ullam asperiores architecto doloremque distinctio?</p>
-                        <a className = "courcesDesc" href="#">Details</a>
+                        <h3 className="courcesTitle">Web Development</h3>
+                        <p className=".courcesDesc">adipisicing elit. Mollitia iusto harum odio dolore unde quam ullam asperiores architecto doloremque distinctio?</p>
+                        <a className = "courcesDetails" href="#">Details</a>
                     </Col>
                   </Row>
 
@@ -55,9 +55,9 @@ class Cources extends Component {
                     </Col>
 
                     <Col lg = {6} md = {6} sm = {12}>
-                      <h3>Web Development</h3>
-                      <p>adipisicing elit. Mollitia iusto harum odio dolore unde quam ullam asperiores architecto doloremque distinctio?</p>
-                      <a className = "courcesDesc" href="#">Details</a>
+                      <h3 className="courcesTitle">Web Development</h3>
+                      <p className=".courcesDesc">adipisicing elit. Mollitia iusto harum odio dolore unde quam ullam asperiores architecto doloremque distinctio?</p>
+                      <a className = "courcesDetails" href="#">Details</a>
                     </Col>
                   </Row>
 
@@ -73,9 +73,9 @@ class Cources extends Component {
                     </Col>
               
                     <Col lg = {6} md = {6} sm = {12}>
-                        <h3>Web Development</h3>
-                        <p>adipisicing elit. Mollitia iusto harum odio dolore unde quam ullam asperiores architecto doloremque distinctio?</p>
-                        <a className = "courcesDesc" href="#">Details</a>
+                      <h3 className="courcesTitle">Web Development</h3>
+                      <p className=".courcesDesc">adipisicing elit. Mollitia iusto harum odio dolore unde quam ullam asperiores architecto doloremque distinctio?</p>
+                      <a className = "courcesDetails" href="#">Details</a>
                     </Col>
                   </Row>
 
