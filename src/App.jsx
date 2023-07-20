@@ -2,12 +2,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import ProtfolioPage from './pages/ProtfolioPage';
+import ContactPage from './pages/ContactPage';
 
 const App = () => {
   return (
     <div>
-      <ProtfolioPage/>
+      <ContactPage/>
       
     </div>
   )
