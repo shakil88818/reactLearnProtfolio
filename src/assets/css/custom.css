@@ -159,7 +159,7 @@
 }
 .summaryBanner{
     background-image: url("../image/bg.jpg");
-    min-height: 380px;
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@
 }
 .summaryBannerOverlay{
     position: absolute;
-    min-height: 380px;
+    min-height: 350px;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
 }
@@ -186,15 +186,16 @@
 }
 .bottomHr{
     border: 1.5px solid white;
-    margin-right: 9rem ;
-    margin-left: 9rem ;
 }
 
 .summarySection{
-    margin-top: 20%;
+    margin-top: 16%;
+}
+.summaryBoxSec{
+    margin-top: 13%;
 }
 .summaryColHeading{
-    text-align: left;
+    text-align: center;
 }
 /* Summary End */
 
@@ -226,6 +227,11 @@
     font-size: 14px;
     font-weight: 400;
 
+}
+
+.recentImg{
+    width: 300px;
+    height: 250px;
 }
 /* Recent Project end */
 
@@ -275,4 +281,91 @@
     color: rgb(0, 115, 230);
     font-size: 50px;
     cursor: pointer;
+}
+.videoDesc{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(31, 31, 31);
+}
+/* Video Start */
+
+
+/* Client review start */
+
+.circleImg{
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 115, 230);
+    width: 100px;
+    height: 100px;
+}
+/*  Client review end*/
+
+
+/* Footer start */
+
+.footerMarginTop{
+    margin-top: 7rem;
+}
+
+.footerHeading{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 700;
+
+}
+.footerDesc{
+    line-height: 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+
+}
+.footerIcon{
+    line-height: 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 115, 230);
+    font-weight: 700;
+}
+
+.footerBack{
+    background: rgb(0, 115, 230);
+    padding: 20px;
+}
+.copyDesc{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+/* Footer End */
+
+
+/* Page Top start */
+
+.pageTopBanner{
+    background-image: url("../image/bg.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pageTopBannerOverlay{
+    position: absolute;
+    min-height: 250px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.pageTopContent{
+    margin-top: 8rem;
+}
+
+.topSubTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 28px;
 }

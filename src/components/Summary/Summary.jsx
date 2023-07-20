@@ -45,14 +45,14 @@ class Summary extends Component {
                                     </h1>
 
                                     <h4 className="summaryTotal">Total Projects</h4>
-                                    <hr className="bottomHr text-center"/>
+                                    <hr className="bottomHr"/>
                                 </Col>
                             </Row>
 
                         </Col>
 
                         <Col lg = {4} md = {6} sm = {12}>
-                            <Card className ="summarySection" style={{ width: '18rem' }}>
+                            <Card className ="summaryBoxSec">
                                 <Card.Body>
                                     <Card.Title className="summaryColHeading">How I work</Card.Title>
                                         <Card.Text>
