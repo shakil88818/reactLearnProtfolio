@@ -5,11 +5,11 @@ import TopNavigation from '../components/TopNavigation/TopNavigation';
 import AllProject from '../components/AllProject/AllProject';
 import Footer from '../components/Footer/Footer';
 
-export default class ProtfolioPage extends Component {
+class ProtfolioPage extends Component {
   render() {
     return (
       <div>
-        <TopNavigation/>
+        <TopNavigation title = "Protfolio"/>
         <PageTop pageTitle = "Protfolio"/>
         <AllProject/>
         <Footer/>
@@ -17,3 +17,4 @@ export default class ProtfolioPage extends Component {
     )
   }
 }
+export default ProtfolioPage 

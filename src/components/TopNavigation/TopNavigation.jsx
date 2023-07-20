@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 
 import React, { Component } from 'react'
@@ -7,6 +8,7 @@ import BlackLogo from '../../assets/image/blackLogo.gif'
 
 import '../../assets/css/custom.css';
 
+import {NavLink} from 'react-router-dom';
 
 class TopNavigation extends Component {
 
@@ -17,7 +19,8 @@ class TopNavigation extends Component {
        navBarTitle: "navLogoTitle",
        navBarLogo: [WhiteLogo],
        navBarback: "navBg",
-       navBarItem: "navItem"
+       navBarItem: "navItem",
+       pageTitle: props.title
     }
   }
   
@@ -43,11 +46,14 @@ class TopNavigation extends Component {
 
   render() {
 
-    const {navBarTitle, navBarLogo, navBarback,navBarItem} = this.state
+    const {navBarTitle, navBarLogo, navBarback,navBarItem,pageTitle} = this.state
 
 
     return (
+
       <>
+
+        <title>{pageTitle}</title>
         <Navbar fixed = "top" collapseOnSelect expand="lg" className={navBarback}>
             <Container>
                     <Navbar.Brand className = {navBarTitle}> <img className = "logoImg" src = {navBarLogo}/>Shakil khan</Navbar.Brand>
@@ -57,12 +63,12 @@ class TopNavigation extends Component {
 
                     </Nav>
                     <Nav>
-                        <Nav.Link className = {navBarItem}>Home</Nav.Link>
-                        <Nav.Link className = {navBarItem}>Services</Nav.Link>
-                        <Nav.Link className = {navBarItem}>Courses</Nav.Link>
-                        <Nav.Link className = {navBarItem}>Protfolio</Nav.Link>
-                        <Nav.Link className = {navBarItem}>Contact</Nav.Link>
-                        <Nav.Link className = {navBarItem}>About</Nav.Link>
+                    <Nav.Link><NavLink className = {navBarItem} to="/">Home</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className = {navBarItem} to="/services">Services</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className = {navBarItem} to="/courses">Courses</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className = {navBarItem} to="/protfolio">Protfolio</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className = {navBarItem} to="/contact">Contact</NavLink></Nav.Link>
+                    <Nav.Link><NavLink className = {navBarItem} to="/about">About</NavLink></Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
             </Container>

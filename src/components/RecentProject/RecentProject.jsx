@@ -9,7 +9,7 @@ class RecentProject extends Component {
     return (
         <>
         <Container>
-        <h1 className='serviceHeadingTit le text-center'>Recent Project</h1>
+        <h1 className='serviceHeadingTitle text-center'>Recent Project</h1>
             <Row className='text-center'>
                 <Col lg = {4} md = {6} sm = {12}>
                     <Card className = "recentProCard">

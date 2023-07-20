@@ -1,13 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import AppRouter from './Router/AppRouter.jsx';
 
-import ContactPage from './pages/ContactPage';
 
 const App = () => {
   return (
     <div>
-      <ContactPage/>
+     
+      <AppRouter/>
+      
       
     </div>
   )

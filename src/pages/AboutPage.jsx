@@ -9,7 +9,7 @@ export default class AboutPage extends Component {
   render() {
     return (
       <div>
-            <TopNavigation/>
+            <TopNavigation title = "About"/>
             <PageTop pageTitle = "About Me"/>
             <AboutDescription/>
             <Footer/>

@@ -9,7 +9,7 @@ export default class CourcesPage extends Component {
   render() {
     return (
       <div>
-        <TopNavigation/>
+        <TopNavigation title = "Course" />
         <PageTop pageTitle = "All Cources"/>
         <AllCourcess/>
         <Footer/>

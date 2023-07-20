@@ -16,7 +16,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <div>
-        <TopNavigation />
+        <TopNavigation title = "Home"/>
         <TopBanner />
         <Services />
         <Analysis />
