@@ -6,6 +6,11 @@ import AllCourcess from '../components/AllCources/AllCourcess.jsx'
 import Footer from '../components/Footer/Footer';
 
 export default class CourcesPage extends Component {
+
+  componentDidMount(){
+    window.scroll(0,0)
+  }
+  
   render() {
     return (
       <div>

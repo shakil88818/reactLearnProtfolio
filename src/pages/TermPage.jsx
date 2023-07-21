@@ -7,6 +7,10 @@ import Footer from '../components/Footer/Footer';
 import TermDesc from '../components/TermsDesc/TermDesc';
 
 export default class TermPage extends Component {
+    componentDidMount(){
+        window.scroll(0,0)
+      }
+      
   render() {
     return (
       <div>
