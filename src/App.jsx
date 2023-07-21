@@ -5,11 +5,15 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import AppRouter from './Router/AppRouter.jsx';
 
 
+
+
 const App = () => {
   return (
     <div>
      
       <AppRouter/>
+      
+      
       
       
     </div>

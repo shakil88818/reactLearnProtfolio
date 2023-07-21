@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FaFacebook, FaYoutube, FaMobileAlt } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
+import { NavLink } from 'react-router-dom';
 
 export default class Footer extends Component {
   render() {
@@ -39,9 +40,9 @@ export default class Footer extends Component {
 
                 <Col lg = {3} md = {6} sm = {12}>
                     <h4 className='footerHeading'>Legal</h4>
-                    <p className='footerDesc'>Refund Policy</p>
-                    <p className='footerDesc'>Terms & Condition</p>
-                    <p className='footerDesc'>Privacy Policy</p>
+                    <NavLink className='refundDesc' to="/refund policy"><p className='refundDesc'>Refund Policy</p></NavLink>
+                    <NavLink className='refundDesc' to="#"><p className='refundDesc'>Terms & Condition</p></NavLink>
+                    <NavLink className='refundDesc' to="#"><p className='refundDesc'>Privacy Policy</p></NavLink>
                 </Col>
 
             </Row>

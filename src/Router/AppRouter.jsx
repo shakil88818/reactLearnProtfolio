@@ -9,6 +9,7 @@ import CourcesPage from '../pages/CourcesPage.jsx'
 import ProtfolioPage from '../pages/ProtfolioPage.jsx'
 import ContactPage from '../pages/ContactPage.jsx'
 import AboutPage from '../pages/AboutPage.jsx'
+import RefundPage from '../pages/RefundPage.jsx'
 
 export default function AppRouter() {
   return (
@@ -21,6 +22,7 @@ export default function AppRouter() {
               <Route path="/protfolio" Component={ProtfolioPage} />
               <Route path="/contact" Component={ContactPage} />
               <Route path="/about" Component={AboutPage} />
+              <Route path="/refund policy" Component={RefundPage} />
           </Routes>
       </BrowserRouter>
       

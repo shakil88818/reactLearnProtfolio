@@ -387,3 +387,26 @@
     border-color: #0073e6 !important;
     box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
 }
+
+
+
+
+
+
+
+/* Refund Policy */
+
+.refundDesc{
+    text-decoration: none !important;
+    line-height: 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.refundDesc:hover{
+    color: #0073e6;
+}
+.refundDesc.active{
+    color: #0073e6;
+}
