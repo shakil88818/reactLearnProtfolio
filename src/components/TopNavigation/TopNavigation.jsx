@@ -56,7 +56,7 @@ class TopNavigation extends Component {
         <title>{pageTitle}</title>
         <Navbar fixed = "top" collapseOnSelect expand="lg" className={navBarback}>
             <Container>
-                    <Navbar.Brand className = {navBarTitle}> <img className = "logoImg" src = {navBarLogo}/>Shakil khan</Navbar.Brand>
+                    <Navbar.Brand> <img className = "logoImg" src = {navBarLogo}/><NavLink className = {navBarTitle} to="/">Shakil khan</NavLink ></Navbar.Brand>
                     <Navbar.Toggle className ="toggleColor" aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

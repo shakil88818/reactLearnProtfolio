@@ -41,7 +41,7 @@ export default class Footer extends Component {
                 <Col lg = {3} md = {6} sm = {12}>
                     <h4 className='footerHeading'>Legal</h4>
                     <NavLink className='refundDesc' to="/refund policy"><p className='refundDesc'>Refund Policy</p></NavLink>
-                    <NavLink className='refundDesc' to="#"><p className='refundDesc'>Terms & Condition</p></NavLink>
+                    <NavLink className='refundDesc' to="terms & condition"><p className='refundDesc'>Terms & Condition</p></NavLink>
                     <NavLink className='refundDesc' to="#"><p className='refundDesc'>Privacy Policy</p></NavLink>
                 </Col>
 
